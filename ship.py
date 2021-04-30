@@ -5,7 +5,7 @@ class Ship():
 		self.path = sys.path[0]
 		self.screen = screen
 		self.image = pygame.image.load(f'{self.path}/objects/ship.bmp')
-		self.image = pygame.transform.scale(self.image,(100,100))
+		self.image = pygame.transform.scale(self.image,(50,50))
 		self.rect = self.image.get_rect()
 		self.screen_rect = screen.get_rect()
 		
